@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int i,odd=0,even=0;
+    int i=1,odd=0,even=0;
 
     while(i!=0){
       cout << "Enter an integer: ";
@@ -16,6 +16,6 @@ int main(){
         }
     }
     cout << "#Even numbers = "<<even<<"\n";
-    cout << "#Odd numbers = "<<odd;
+    cout << "#Odd numbers = "<<odd<<;
     return 0;
 }
